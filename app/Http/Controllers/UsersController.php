@@ -115,5 +115,6 @@ class UsersController extends Controller
         session()->flash('success', '恭喜你，激活成功！');
         return redirect()->route('users.show', [$user]);
     }
+
 }
 
