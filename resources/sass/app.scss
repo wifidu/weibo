@@ -82,7 +82,7 @@ section.user_info {
     width: 33%;
     border-left: 1px solid #eee;
     color: #33383c;
-    &:first-child {
+    &:first-child { //每一个父元素下的第一个 <a>
       padding-left: 0;
       border: 0;
     }
@@ -92,7 +92,7 @@ section.user_info {
     }
   }
   strong {
-    display: block;
+    display: block; //上下回车环行
     font-size: 1.2em;
     color: black;
   }
