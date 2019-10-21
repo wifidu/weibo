@@ -6,7 +6,7 @@
   <h2 class="mb-4 text-center">
     {{ $title }}
   </h2>
-  //list-group-flush 取消列表周围边框
+  <!--list-group-flush 取消列表周围边框--!>
   <div class="list-group list-group-flush"> 
     @foreach ($users as $user)
       <div class="list-group-item">
