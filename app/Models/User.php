@@ -15,7 +15,7 @@ class User extends Authenticatable
     protected $table = 'users';
 
     /**
-     * The attributes that are mass assignable.
+     * The attributes that are mass assignable.这些属性可以批量赋值。
      *
      * @var array
      */
